@@ -191,7 +191,111 @@ li ol {
    ========================================================================== */
 
 /* Figures and images */
-
+.publication-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+.publication-card--centered {
+  align-items: center;
+}
+.publication-card__media {
+  display: block;
+  width: min(300px, 100%);
+  max-width: 100%;
+  flex: 0 1 300px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.publication-card__content {
+  flex: 1 1 18rem;
+  min-width: 0;
+}
+.publication-card__title {
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.publication-card__title--block {
+  display: block;
+  margin-bottom: 0.2em;
+}
+.activity-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 2rem;
+}
+.publications-intro {
+  margin-bottom: 2em;
+  padding: 1.1em 1.25em;
+  border-left: 4px solid $info-color;
+  background: mix(#fff, $info-color, 94%);
+  p {
+    margin: 0;
+  }
+}
+.publications-note {
+  margin-top: 0.55em !important;
+  color: mix(#000, $text-color, 30%);
+  font-size: 0.85em;
+}
+.publications-year {
+  margin-top: 1.75em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid $border-color;
+}
+.publication-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.publication-item {
+  margin-bottom: 1.75em;
+  padding-left: 1em;
+  border-left: 2px solid mix(#fff, $primary-color, 65%);
+}
+.publication-title {
+  margin-bottom: 0.3em;
+  color: $text-color;
+  font-size: 1.05em;
+  font-weight: bold;
+  line-height: 1.35;
+}
+.publication-authors,
+.publication-venue {
+  margin-bottom: 0.2em;
+  font-size: 0.9em;
+  line-height: 1.55;
+}
+.publication-links {
+  margin-top: 0.45em;
+  a {
+    display: inline-block;
+    margin-right: 0.45em;
+    padding: 0.2em 0.65em;
+    border: 1px solid $primary-color;
+    border-radius: 3px;
+    font-size: 0.78em;
+    font-weight: bold;
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+      background: $primary-color;
+    }
+  }
+}
+@include breakpoint(max-width $medium) {
+  .publication-card {
+    flex-wrap: wrap;
+  }
+  .publication-card__media {
+    flex-basis: 100%;
+    width: 100%;
+    margin-right: 0;
+  }
+}
 figure {
   display: -webkit-box;
   display: flex;
