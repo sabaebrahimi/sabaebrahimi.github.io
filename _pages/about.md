@@ -16,7 +16,7 @@ My main goal is to find the most optimized inference solutions for the edge and 
 Publications
 ======
 <div class="publication-card">
-  <img src="../videos/LAP.png" class="publication-card__media" alt="Scenario-aware planning illustration" />
+  <img src="../images/NTSM.drawio.png" class="publication-card__media" alt="Scenario-aware planning illustration" />
   <div class="publication-card__content">
     <span class="publication-card__title">
   NTSM: OS-Level Memory Middleware for Scaling AI Without Boundaries
@@ -28,7 +28,7 @@ Publications
 </div>
 
 <div class="publication-card publication-card--centered">
-  <img src="../videos/LAP.png" class="publication-card__media" alt="Scenario-aware planning illustration" />
+  <img src="../images/Ch1-Timeline2-drawio.png" class="publication-card__media" alt="Scenario-aware planning illustration" />
   <div class="publication-card__content">
     <span class="publication-card__title publication-card__title--block">
       Modeling and Simulation Frameworks for Processing-in-Memory Architectures
