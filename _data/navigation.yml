@@ -27,6 +27,9 @@ main:
     url: /files/SabaEbrahimi_academic_CV.pdf
     target: _blank
     download: SabaEbrahimi_academic_CV.pdf
+
+  - title: "Experience"
+    url: /experience/
     
   # - title: "CV"
   #   url: /cv-json/
