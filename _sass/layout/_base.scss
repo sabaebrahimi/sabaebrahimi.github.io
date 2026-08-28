@@ -238,13 +238,13 @@ li ol {
 }
 .publications-note {
   margin-top: 0.55em !important;
-  color: mix(#000, $text-color, 30%);
+  color: var(--global-text-color);
   font-size: 0.85em;
 }
 .publications-year {
   margin-top: 1.75em;
   padding-bottom: 0.3em;
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid var(--global-border-color);
 }
 .publication-list {
   margin-left: 0;
@@ -258,7 +258,7 @@ li ol {
 }
 .publication-title {
   margin-bottom: 0.3em;
-  color: $text-color;
+  color: var(--global-text-color);
   font-size: 1.05em;
   font-weight: bold;
   line-height: 1.35;
