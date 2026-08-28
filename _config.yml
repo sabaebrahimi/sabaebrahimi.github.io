@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "mint" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Saba Ebrahimi"
 title_separator          : "-"
 name                     : &name "Saba"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Saba Ebrahimi"
   pronouns         : # example: "she/her"  
-  bio              : "Computer Architecture Student"
+  bio              : "M.Sc. Computer Architecture Student"
   location         : "Tehran"
   employer         : "Shahid Beheshti University"
   uri              : # URL
