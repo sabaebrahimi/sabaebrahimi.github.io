@@ -24,7 +24,9 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    url: /cv/
+    url: /files/SabaEbrahimi_academic_CV.pdf
+    target: _blank
+    download: SabaEbrahimi_academic_CV.pdf
     
   # - title: "CV"
   #   url: /cv-json/
